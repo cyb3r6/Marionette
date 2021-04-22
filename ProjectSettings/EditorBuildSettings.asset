@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARMarionette.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 88e1f8a7c03125244aac401dcb87de19
+  - enabled: 1
+    path: Assets/Scenes/VRMarionette.unity
+    guid: da53da015856976448399d619ade7429
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b133e0e3e2c3af8439a96ac62863ebbb,
       type: 2}

@@ -1356,6 +1356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0db21c213a455f141bc738df9d2ef6af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterSpawnTransform: {fileID: 2073549451816759257}
+  ragDollController: {fileID: 0}
+  characterPrefab: {fileID: 0}
 --- !u!54 &3732456056302267894
 Rigidbody:
   m_ObjectHideFlags: 0
