@@ -33,7 +33,7 @@ public class MarionetteCube : MonoBehaviour
         if(other.tag == "Player")
         {
             cubeRenderer.sharedMaterial = cubeCollidedMaterial;
-            Handheld.Vibrate();
+            //Handheld.Vibrate();
         }
     }
 

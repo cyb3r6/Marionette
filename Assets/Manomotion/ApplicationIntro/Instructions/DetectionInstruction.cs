@@ -75,7 +75,7 @@ public class DetectionInstruction : Instruction
     override public void ProgressWithInstructionStep()
     {
         _currentInstructionStep++;
-        Handheld.Vibrate();
+        //Handheld.Vibrate();
         if (_currentInstructionStep == _instructionSteps - 1)
         {
             ApplicationManager.Instance.howToInstructor.HighlightConfirmation();

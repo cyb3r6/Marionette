@@ -150,7 +150,7 @@ public class CubeGameManager : MonoBehaviour
                 if (hit.transform.tag == interactableTag)
 				{
 					hit.transform.GetComponent<CubeSpawn>().AwardPoints();
-					Handheld.Vibrate();
+					//Handheld.Vibrate();
 				}
 			}
 		}

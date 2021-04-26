@@ -92,7 +92,7 @@ public class ARCubeInteraction : MonoBehaviour
         if (other.gameObject.tag == handTag)
         {
             cubeRenderer.sharedMaterial = arCubeMaterial[1];
-            Handheld.Vibrate();
+            //Handheld.Vibrate();
         }
     }
 

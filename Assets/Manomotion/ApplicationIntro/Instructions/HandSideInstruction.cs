@@ -68,7 +68,7 @@ public class HandSideInstruction : Instruction
     override public void ProgressWithInstructionStep()
     {
         _currentInstructionStep++;
-        Handheld.Vibrate();
+       // Handheld.Vibrate();
         UpdateHandSideNeeded();
         currentFramesDetected = 0;
         if (_currentInstructionStep == _instructionSteps - 1)

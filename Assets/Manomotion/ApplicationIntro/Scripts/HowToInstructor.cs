@@ -239,7 +239,7 @@ namespace ManoMotion.HowToUse
         /// </summary>
         public void ConfirmInstructionSeen()
         {
-            Handheld.Vibrate();
+            //Handheld.Vibrate();
             DehighlightConfirmation();
             instructions[currentInstruction].DeclareInstructionSeen();
             instructions[currentInstruction].StopResponding();
@@ -382,7 +382,7 @@ namespace ManoMotion.HowToUse
                 confirmationHighlightObject = confirmationObject.transform.GetChild(0).gameObject;
             }
             confirmationHighlightObject.SetActive(true);
-            Handheld.Vibrate();
+            //Handheld.Vibrate();
         }
         /// <summary>
         /// Dehighlights the confirmation.

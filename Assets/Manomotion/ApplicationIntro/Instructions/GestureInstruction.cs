@@ -165,7 +165,7 @@ public class GestureInstruction : Instruction
         _currentInstructionStep++;
         numberOfCompleteSetOfTriggersPerformed = 0;
 
-        Handheld.Vibrate();
+        //Handheld.Vibrate();
         ApplicationManager.Instance.howToInstructor.triggerAnimations.HighlightImagesUpToStep(numberOfCompleteSetOfTriggersPerformed);
         UpdateRequestedTrigger();
         UpdateTriggerGestureDescription();
@@ -193,7 +193,7 @@ public class GestureInstruction : Instruction
             StopResponding();
             Debug.Log("Inside 3");
 
-            Handheld.Vibrate();
+            //Handheld.Vibrate();
             string endMessage = "Great! You are ready to see more features. Tap on the thumbs up icon.";
             currentDescription = endMessage;
             Debug.Log("Inside 4");

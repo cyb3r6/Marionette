@@ -4,29 +4,12 @@ using UnityEngine;
 
 public class SelectCharcter : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject ortiz;
-
-    [SerializeField]
-    private GameObject ty;
-
-    [SerializeField]
-    private GameObject selectedCharacter;
-
-    
-    void Awake()
-    {
-        DontDestroyOnLoad(this);
-    }
-
-    public void SelectOrtiz()
-    {
-        selectedCharacter = ortiz;
-    }
-
-    public void SelectTy()
-    {
-        selectedCharacter = ty;
-    }
-    
+   public void ChooseCharacter(int character)
+   {
+        if(PlayerInfo.instance.selectedCharacter != null)
+        {
+            PlayerInfo.instance.selectedCharacter = character;
+            PlayerPrefs.SetInt("Character", character);
+        }
+   }
 }
