@@ -15,5 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/VRMarionette.unity
     guid: da53da015856976448399d619ade7429
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8cf549f4ed6ddc04ea18aee84294825d,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b133e0e3e2c3af8439a96ac62863ebbb,
       type: 2}

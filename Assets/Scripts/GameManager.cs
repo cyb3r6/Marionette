@@ -18,6 +18,4 @@ public class GameManager : MonoBehaviour
         var newPlayer = PhotonNetwork.Instantiate(oVRPlayerPrefab.name, new Vector3(numberofPlayers * characterOffset, 0, 0), Quaternion.identity);
 
     }
-
-    
 }
